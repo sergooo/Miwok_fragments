@@ -1,5 +1,7 @@
 package com.example.android.miwok;
 
+import android.media.Image;
+
 /**
  * {@link Word} represents a vocabulary word that the user wants to learn.
  * It contains a default translation and a Miwok translation for that word.
@@ -37,5 +39,12 @@ public class Word {
     public String getMiwokTranslation() {
         return mMiwokTranslation;
     }
+
+//    /**
+//     * Get the Miwok image of the both words.
+//     */
+//    public Image getMiwokNumImage() {
+//        return mMiwokTranslation;
+//    }
 
 }
