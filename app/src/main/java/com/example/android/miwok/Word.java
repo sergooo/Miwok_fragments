@@ -16,14 +16,10 @@ public class Word {
      */
     private String mMiwokTranslation;
 
-    /**
-     * Miwok image for each word
-     */
-    private int mImageResourceId;
+    /** Image resource ID for the word */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /**
-     * Constant value that represents no image was provided for this word
-     */
+    /** Constant value that represents no image was provided for this word */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /** Audio resource ID for the word */
