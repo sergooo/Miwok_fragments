@@ -1,3 +1,5 @@
+Updated version of the Google Miwok app for nano-degree. Changed the Activities views to Fragment views
+
 Miwok App
 ===================================
 
